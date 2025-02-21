@@ -1,0 +1,1 @@
+On Day 2 of the bootcamp, I completed tasks in HTML, including an About Me page, portfolio, login page, menu, product showcase, and blog. On Day 3, we will style these using CSS with Bootstrap. On Day 4, we will work on JavaScript-based tasks.
