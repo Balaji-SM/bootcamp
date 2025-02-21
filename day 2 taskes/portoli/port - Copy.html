@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - My Portfolio</title>
+    <style>
+      /* General Styles */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background-color: #333;
+        padding: 10px 0;
+        text-align: center;
+      }
+
+      header nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      header nav ul li {
+        display: inline;
+        margin: 0 20px;
+      }
+
+      header nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        padding: 8px 15px;
+        border-radius: 4px;
+        transition: all 0.3s ease; /* Smooth transition for hover effect */
+      }
+
+      /* Hover Effects */
+      header nav ul li a:hover {
+        color: white; /* Text color stays white on hover */
+        transform: scale(1.1); /* Slightly scale up the text on hover */
+      }
+
+      /* Individual Hover Colors for Each Link */
+      header nav ul li a:nth-child(1):hover {
+        background-color: #4caf50; /* Green for Home */
+      }
+
+      header nav ul li a:nth-child(2):hover {
+        background-color: #2196f3; /* Blue for About */
+      }
+
+      header nav ul li a:nth-child(3):hover {
+        background-color: #ff5722; /* Orange for Contact */
+      }
+
+      /* Hero Section */
+      .hero {
+        background-color: #1d264b;
+        color: white;
+        padding: 80px 20px;
+        text-align: center;
+      }
+
+      .hero h1 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+      }
+
+      .hero p {
+        font-size: 1.2em;
+      }
+
+      .hero img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-top: 20px;
+        border: 4px solid white;
+        transition: transform 0.3s ease;
+      }
+
+      .hero img:hover {
+        transform: scale(1.1);
+      }
+
+      /* Skills Section */
+      .skills {
+        background-color: #fff;
+        padding: 50px 20px;
+        text-align: center;
+      }
+
+      .skills h2 {
+        color: #333;
+        margin-bottom: 20px;
+      }
+
+      .skills-list {
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .skills-list div {
+        width: 30%;
+        padding: 20px;
+        background-color:  #1d264b;
+        margin: 10px;
+        border-radius: 4px;
+        color: white;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      /* Footer */
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        margin-top: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html" style="color: #a7b6a8">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+   
+    <section class="hero">
+      <img src="bio_pic.jpeg" alt="Your Name" />
+      <h1>Welcome to My Portfolio</h1>
+      <p>
+        I am a passionate developer creating modern and responsive web
+        applications.
+      </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills">
+      <h2 style="color: #0e3047">My Skills</h2>
+      <div class="skills-list">
+        <div>
+          <h3>HTML</h3>
+          <p>Building responsive layouts</p>
+        </div>
+
+        <div>
+          <h3>CSS</h3>
+          <p>Designing modern, visually appealing pages</p>
+        </div>
+        <div>
+          <h3>JavaScript</h3>
+          <p>Creating interactive user experiences</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 My Portfolio</p>
+    </footer>
+  </body>
+</html>
